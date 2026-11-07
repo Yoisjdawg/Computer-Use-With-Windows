@@ -58,7 +58,7 @@ Run these in a terminal (Git Bash, or `cmd`; in PowerShell use `room-cli.cmd`):
 
 ```bash
 room-cli plugin disable computer-use
-room-cli plugin install git:https://github.com/Yoisjdawg/cloudroom-computer-use-windows --yes
+room-cli plugin install git:https://github.com/Yoisjdawg/Computer-Use-With-Windows --yes
 ```
 
 The first line turns off Cloudroom's built-in Computer Use plugin, which on

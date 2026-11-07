@@ -7,7 +7,7 @@
   "description": "Computer use for Cloudroom on Windows: agents see and control desktop apps through Cua Driver, with per-app approvals.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yoisjdawg/cloudroom-computer-use-windows.git"
+    "url": "git+https://github.com/Yoisjdawg/Computer-Use-With-Windows.git"
   },
   "scripts": {
     "test": "node --test driver.test.ts",

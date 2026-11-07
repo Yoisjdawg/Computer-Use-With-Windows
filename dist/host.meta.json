@@ -1,0 +1,12 @@
+{
+  "sdkMajor": 0,
+  "sdkVersion": "0.6.50",
+  "artifactFormatVersion": 1,
+  "pluginId": "computer-use-windows",
+  "pluginVersion": "0.1.0",
+  "builtWith": {
+    "bbVersion": "142.0.0",
+    "pluginSdkVersion": "0.6.50"
+  },
+  "artifactDigest": "5417055008d7c5b39e2ff94e90f888ef203ef001457df0af409bcf10da04ccb6"
+}

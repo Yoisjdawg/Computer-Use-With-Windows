@@ -1,0 +1,42 @@
+{
+  "name": "bb-plugin-computer-use-windows",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Computer use for Cloudroom on Windows: agents see and control desktop apps through Cua Driver, with per-app approvals.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoisjdawg/cloudroom-computer-use-windows.git"
+  },
+  "scripts": {
+    "test": "node --test driver.test.ts",
+    "typecheck": "tsc -p ."
+  },
+  "engines": {
+    "bb": ">=142.0",
+    "bbPluginSdk": ">=0.6.50"
+  },
+  "bb": {
+    "name": "Computer Use for Windows",
+    "description": "Agents see and control Windows desktop apps through Cua Driver. Cloudroom asks you before each new app.",
+    "branding": {
+      "icon": "Cursor"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx",
+    "host": "./host.ts"
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.6.49",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "hono": "^4.13.16",
+    "typescript": "^5.7.0"
+  }
+}
